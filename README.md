@@ -19,7 +19,7 @@ $ npm install -g tatatap.com-cli
 $ ttt COMMAND
 running command...
 $ ttt (-v|--version|version)
-tatatap.com-cli/0.9.0 linux-x64 node-v12.16.3
+tatatap.com-cli/0.9.1 linux-x64 node-v12.16.3
 $ ttt --help [COMMAND]
 USAGE
   $ ttt COMMAND
@@ -28,30 +28,11 @@ USAGE
 <!-- usagestop -->
 # Commands
 <!-- commands -->
-* [`ttt hello`](#ttt-hello)
 * [`ttt help [COMMAND]`](#ttt-help-command)
 * [`ttt login`](#ttt-login)
 * [`ttt logout`](#ttt-logout)
 * [`ttt note [NOTE]`](#ttt-note-note)
 * [`ttt read`](#ttt-read)
-
-## `ttt hello`
-
-Describe the command here
-
-```
-USAGE
-  $ ttt hello
-
-OPTIONS
-  -n, --name=name  name to print
-
-DESCRIPTION
-  ...
-  Extra documentation goes here
-```
-
-_See code: [src/commands/hello.js](https://github.com/thumblab/tatatap-cli/blob/v0.9.0/src/commands/hello.js)_
 
 ## `ttt help [COMMAND]`
 
@@ -79,7 +60,7 @@ USAGE
   $ ttt login
 ```
 
-_See code: [src/commands/login.js](https://github.com/thumblab/tatatap-cli/blob/v0.9.0/src/commands/login.js)_
+_See code: [src/commands/login.js](https://github.com/thumblab/tatatap-cli/blob/v0.9.1/src/commands/login.js)_
 
 ## `ttt logout`
 
@@ -90,7 +71,7 @@ USAGE
   $ ttt logout
 ```
 
-_See code: [src/commands/logout.js](https://github.com/thumblab/tatatap-cli/blob/v0.9.0/src/commands/logout.js)_
+_See code: [src/commands/logout.js](https://github.com/thumblab/tatatap-cli/blob/v0.9.1/src/commands/logout.js)_
 
 ## `ttt note [NOTE]`
 
@@ -101,7 +82,7 @@ USAGE
   $ ttt note [NOTE]
 ```
 
-_See code: [src/commands/note.js](https://github.com/thumblab/tatatap-cli/blob/v0.9.0/src/commands/note.js)_
+_See code: [src/commands/note.js](https://github.com/thumblab/tatatap-cli/blob/v0.9.1/src/commands/note.js)_
 
 ## `ttt read`
 
@@ -116,5 +97,5 @@ OPTIONS
   -f, --folder=folder
 ```
 
-_See code: [src/commands/read.js](https://github.com/thumblab/tatatap-cli/blob/v0.9.0/src/commands/read.js)_
+_See code: [src/commands/read.js](https://github.com/thumblab/tatatap-cli/blob/v0.9.1/src/commands/read.js)_
 <!-- commandsstop -->

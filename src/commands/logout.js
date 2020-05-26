@@ -7,7 +7,6 @@ const api = require('../api');
 class LogoutCommand extends Command {
   async run() {
     const {err, res, headers} = await api.logout();
-    console.log(err, res)
     if (err) {
       return console.log(err);
     }
