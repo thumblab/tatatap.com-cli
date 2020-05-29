@@ -1,7 +1,9 @@
-tttap
+/tap
 =====
 
-Command line interface to save and retrieve notes from the tatatap.com note-taking service
+Command line interface to save and retrieve notes from the [tatatap.com](https://www.tatatap.com) note-taking service.
+
+[See here for an in-depth guide on the /tap system](https://tatatap.com/how-to)
 
 [![oclif](https://img.shields.io/badge/cli-oclif-brightgreen.svg)](https://oclif.io)
 [![Version](https://img.shields.io/npm/v/tttap.svg)](https://npmjs.org/package/tttap)
@@ -19,7 +21,7 @@ $ npm install -g tatatap.com-cli
 $ ttt COMMAND
 running command...
 $ ttt (-v|--version|version)
-tatatap.com-cli/0.9.2 linux-x64 node-v12.16.3
+tatatap.com-cli/0.9.3 linux-x64 node-v12.16.3
 $ ttt --help [COMMAND]
 USAGE
   $ ttt COMMAND
@@ -60,7 +62,7 @@ USAGE
   $ ttt login
 ```
 
-_See code: [src/commands/login.js](https://github.com/thumblab/tatatap-cli/blob/v0.9.2/src/commands/login.js)_
+_See code: [src/commands/login.js](https://github.com/thumblab/tatatap-cli/blob/v0.9.3/src/commands/login.js)_
 
 ## `ttt logout`
 
@@ -71,7 +73,7 @@ USAGE
   $ ttt logout
 ```
 
-_See code: [src/commands/logout.js](https://github.com/thumblab/tatatap-cli/blob/v0.9.2/src/commands/logout.js)_
+_See code: [src/commands/logout.js](https://github.com/thumblab/tatatap-cli/blob/v0.9.3/src/commands/logout.js)_
 
 ## `ttt note [NOTE]`
 
@@ -82,7 +84,7 @@ USAGE
   $ ttt note [NOTE]
 ```
 
-_See code: [src/commands/note.js](https://github.com/thumblab/tatatap-cli/blob/v0.9.2/src/commands/note.js)_
+_See code: [src/commands/note.js](https://github.com/thumblab/tatatap-cli/blob/v0.9.3/src/commands/note.js)_
 
 ## `ttt read`
 
@@ -97,5 +99,5 @@ OPTIONS
   -f, --folder=folder
 ```
 
-_See code: [src/commands/read.js](https://github.com/thumblab/tatatap-cli/blob/v0.9.2/src/commands/read.js)_
+_See code: [src/commands/read.js](https://github.com/thumblab/tatatap-cli/blob/v0.9.3/src/commands/read.js)_
 <!-- commandsstop -->
