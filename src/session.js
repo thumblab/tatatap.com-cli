@@ -16,7 +16,11 @@ try {
 
 module.exports.save = function (cookie) {
   const session = {cookie};
-  fs.writeFileSync(path.resolve(HOME_DIR, p), JSON.stringify(session));
+
+  fs.writeFileSync(path.resolve(HOME_DIR, p), JSON.stringify(session), {
+    mode: 0o600
+  });
+
   return session;
 }
 

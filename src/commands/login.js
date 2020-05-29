@@ -2,7 +2,7 @@ const {Command, flags} = require('@oclif/command');
 const {cli} = require('cli-ux');
 const api = require('../api');
 
-const emailPattern = /[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,4}/;
+const emailPattern = /.+@.+\.[A-Za-z]{2,20}/;
 
 class LoginCommand extends Command {
   async run() {
