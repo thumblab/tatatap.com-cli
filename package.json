@@ -1,12 +1,12 @@
 {
   "name": "tatatap.com-cli",
   "description": "Command line interface to save and retrieve notes from the tatatap.com note-taking service",
-  "version": "0.9.4",
+  "version": "0.9.5",
   "author": "joe k @1800joe",
   "bin": {
     "tap": "./bin/run"
   },
-  "bugs": "https://github.com/thumblab/tatatap-cli/issues",
+  "bugs": "https://github.com/thumblab/tatatap.com-cli/issues",
   "dependencies": {
     "@oclif/command": "^1.6.1",
     "@oclif/config": "^1.15.1",
@@ -33,7 +33,7 @@
     "/oclif.manifest.json",
     "/src"
   ],
-  "homepage": "https://github.com/thumblab/tatatap-cli",
+  "homepage": "https://github.com/thumblab/tatatap.com-cli",
   "keywords": [
     "oclif"
   ],
@@ -46,7 +46,7 @@
       "@oclif/plugin-help"
     ]
   },
-  "repository": "thumblab/tatatap-cli",
+  "repository": "thumblab/tatatap.com-cli",
   "scripts": {
     "postpack": "rm -f oclif.manifest.json",
     "posttest": "eslint .",
