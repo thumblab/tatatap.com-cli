@@ -11,7 +11,7 @@
     "@oclif/command": "^1.6.1",
     "@oclif/config": "^1.15.1",
     "@oclif/plugin-help": "^3.0.1",
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "luxon": "^1.24.1"
   },
   "devDependencies": {
